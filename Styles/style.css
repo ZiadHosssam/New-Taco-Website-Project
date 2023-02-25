@@ -61,7 +61,29 @@ h2 {
 }
 .main {
   width: 100%;
-  max-height: 100svh;
-  max-height: 100vh;
-  background: url(../Images/Taco.);
+  min-height: 88vh;
+  display: flex;
+  align-items: center;
+  padding-bottom: 300px;
+  padding-left: 30px;
+}
+p {
+  margin-left: 50px;
+  white-space: nowrap;
+  width: 90px;
+  margin-bottom: 15px;
+}
+#get {
+  display:inline;
+  text-decoration: none;
+  margin-left: 50px;
+  width: 30px;
+  padding-right:15px;
+  padding-left:15px;
+  padding-top:5px;
+  padding-bottom:5px;
+  background-color: #7effff;
+  border: 2px soild #4fffff;
+  border-radius:15px 15px 10px 10px;
+  color:magenta;
 }

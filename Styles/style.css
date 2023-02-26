@@ -7,6 +7,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 h1 {
   display: flex;
@@ -19,11 +20,13 @@ h1 {
 }
 header {
   display: flex;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   background-color: black;
   padding: 10px 100px;
+  z-index: 999;
 }
 nav a {
   text-decoration: none;
@@ -32,7 +35,7 @@ nav a {
 nav a:hover {
   color: cyan;
 }
-#dev {
+header a {
   padding-right: 20px;
 }
 #sto {
@@ -61,11 +64,34 @@ h2 {
 }
 .main {
   width: 100%;
-  min-height: 88vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   padding-bottom: 300px;
   padding-left: 30px;
+}
+.OurStory {
+  width:100%;
+  height:562.5px;;
+  display:flex;
+}
+.OurStory p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-right:40px;
+    font-family: cursive;
+}
+#Teen {
+  color:#54EFFF;
+  font-size:1.875em;
+  font-weight: 400;
+  font-family: fantasy;
+}
+#big {
+  color:#54EFFF;
+  font-size:1.875em;
+  font-weight:400;
+  font-family:fantasy;
 }
 p {
   margin-left: 50px;
@@ -86,4 +112,41 @@ p {
   border: 2px soild #4fffff;
   border-radius:15px 15px 10px 10px;
   color:magenta;
+}
+h3 {
+  font-size:30px;
+  font-family: fantasy;
+  padding:5px 40px;
+  font-weight: 400;
+}
+#eat {
+  border:5px solid #3ff;
+  background:#7ef;
+  border-radius:20px;
+  text-decoration: none;
+  color:black;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:6px;
+  padding-bottom:6px;
+  width:60px;
+  white-space: nowrap;
+  margin:5px 2.8em;
+}
+#eat:hover{
+  color:white;
+  background-color:black;
+  border-color:#7ef;
+  transform: scaleY(5.5);
+}
+#eat:active{
+  color:black;
+  background:magenta;
+  border:1px;
+  width:300px;
+}
+#dev {
+  width:100%;
+  background-color:linen;
+  height: 90vh;
 }

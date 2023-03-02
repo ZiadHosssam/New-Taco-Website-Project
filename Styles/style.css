@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  text-decoration: none;
 }
 body {
   background: rgb(131, 58, 180);
@@ -78,6 +79,8 @@ h2 {
   align-items: center;
   padding-bottom: 300px;
   padding-left: 30px;
+  background:url('../Images/Back.jpg') no-repeat;
+  background-size: cover;
 }
 .OurStory {
   width: 100%;
@@ -85,6 +88,8 @@ h2 {
   display: flex;
   padding-top: 100px;
   padding-bottom: 50px;
+  background:url('../Images/About.jpg') no-repeat;
+  background-size: cover;
 }
 .OurStory p {
   margin-block-start: 1em;
@@ -93,13 +98,13 @@ h2 {
   font-family: cursive;
 }
 #Teen {
-  color: #54efff;
+  color:white;
   font-size: 1.875em;
   font-weight: 400;
   font-family: fantasy;
 }
 #big {
-  color: #54efff;
+  color:white;
   font-size: 1.875em;
   font-weight: 400;
   font-family: fantasy;
@@ -162,12 +167,15 @@ h3 {
 }
 #dev {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
+  background:url('../Images/del.jpg') no-repeat;
+  background-size: cover;
+  color:white;
 }
 h4 {
   text-align: center;
   font-size: 30px;
-  padding: 5px 5px 5px 5px;
+  padding:10px 0px 0px 0px;
 }
 h4:hover {
   color: white;
@@ -176,7 +184,7 @@ h4:hover {
 table,
 td {
   align-items: center;
-  border: 5px solid black;
+  border: 2px solid black;
 }
 table {
   margin-left: 400px;
@@ -207,6 +215,38 @@ td:hover {
   color: black;
   background: transparent;
 }
-#Payment {
+#form {
   height: 100vh;
+  width:100%;
+  margin: 10px 1px 0px 0px;
+  text-align: center;
+}
+footer {
+  display: flex;
+  align-items: center;
+  background:black;
+  color:magenta;
+}
+footer span {
+  margin-left:20px;
+}
+footer i {
+  margin-left:15px;
+  color:white;
+  font-size:25px;
+  margin-bottom:5px;
+  max-height: 5px;
+}
+h5 {
+  margin-left:15px;
+  margin-right:15px;
+  margin-top:15px;
+}
+#Hub {
+  width:15px;
+  height: 15px;
+}
+#logo-foot {
+  width:40px;
+  max-height:30px;
 }

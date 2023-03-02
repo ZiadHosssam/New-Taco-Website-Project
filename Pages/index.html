@@ -6,20 +6,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="../Styles/style.css" rel="stylesheet" />
-  <link rel="icon" href="../Images/taco.png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="../Images/taco.png" />
 </head>
 
 <body>
   <header>
-    <h1>Taco</h1>
+    <a href="#hd">
+      <h1>Taco</h1>
+    </a>
     <nav>
       <a href="#dev">Delivery</a>
       <a id="sto" href="#Story">Our Story</a>
-      <a id="git" href="#">Github</a>
+      <a id="git" href="https://github.com/ZiadHosssam/New-Taco-Website-Project">Github</a>
     </nav>
   </header>
   <section class="main">
-    <div>
+    <div id="hd">
       <h2>Welcome To Our Store</h2>
       <p id="bio">We Provied The Most Delicous Food In The Town</p>
       <a id="get" href="#">Get Yours Now</a>
@@ -30,7 +35,7 @@
       <h3>Our Story</h3>
       <p class="title">
         We Are Some<span id="Teen">Teenagers</span>Trying To Make The Most
-        Delicous Taco In The City
+        Delicous Taco In New-York
       </p>
       <p class="story">
         Our Story Began In 2020 When The CoranViurs Came We Opend A Local Shop
@@ -84,29 +89,14 @@
         </tr>
       </tfoot>
     </table>
-    <a id="sum" href="#Get-Now">Get-Now</a>
+    <a id="sum" href="#form">Get-Now</a>
   </section>
-  <form id="form">
-    <h5>Let's Make A New Meal</h5>
-    <section id="Meal">
-      <label for="meal">Meal</label>
-      <select name="meal" id="Meal">
-        <option value="taco clasic">taco clasic</option>
-        <option value="taco with fries">taco with fries</option>
-        <option value="fries">fries</option>
-        <option value="beans">beans</option>
-        <option value="Flafel">Flafel</option>
-        <option value="Flafel with beans">Flafel with beans</option>
-      </select>
-    </section>
-    <section id="Payment">
-      <a href="free-del.html">Free</a>
-      <a href="visa.html">Visa</a>
-    </section>
-    <section id="sub">
-      <input type="submit" />
-    </section>
-  </form>
+  <footer>
+    <img id="logo-foot" src="../Images/taco.png" alt="taco">
+    <h5>Soical Media Accounts</h5>
+    <span class="Joke">We Don't Have Any Soical Media Accounts.....</span>
+    <a href="https://github.com/ZiadHosssam"><i id="Hub" class="fa-brands fa-github"></i></a>
+  </footer>
 </body>
 
 </html>
